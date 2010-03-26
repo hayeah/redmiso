@@ -5,6 +5,8 @@ require 'redmiso'
 require 'spec'
 require 'spec/autorun'
 
+require 'pp'
+require 'thread'
 require 'rr'
 Spec::Runner.configure do |config|
   config.mock_with :rr
